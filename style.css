@@ -1,10 +1,52 @@
 .menu{
     display:flex;
     justify-content: space-between;
+    background-color: #7fffd4;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color:black;
 }
 
-.grid{
+.grid {
     display:flex;
     flex-wrap: wrap;
   
+}
+body{
+    margin: 0px;
+    background-color:#6495ed;
+}
+
+.origami{
+    border-radius: 20px;
+    background-color:#00ffff;
+    padding: 30px;
+    margin: 25px;
+    width:310px;
+    font-family: fantasy;
+
+}
+
+.grid img{
+    border: 2px solid #000000;
+    border-radius: 50px;
+}
+p,h3{
+    color: #ffffff;
+}
+
+.bodyimg{
+    background-image:url("images/main2.jpg");
+}
+
+.bodyimg p{
+    font-size: 50px;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bodyimg h3{
+ font-size: 30;
 }
